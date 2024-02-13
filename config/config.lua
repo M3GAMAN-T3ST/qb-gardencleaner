@@ -3,7 +3,7 @@ Config = {}
 Config.Lang = 'en'
 Config.FixCarSpawnQB = false -- Set this to true if car is not spawning
 Config.SpawnBack = false -- Spawns player next to the ped when gives back the car
-Config.Seeds = true -- if you want hem to get randomly male or female seed 
+Config.Seeds = true -- if you want them to get randomly male or female seed 
 --- Vehicle ---
 Config.UsingFuel = false
 Config.JobCar = 'speedo4'
@@ -12,7 +12,6 @@ Config.VehiclePoints = 15 -- the required level for vehicle
 Config.TargetName = 'qb-target'
 Config.StartJobEmote = 'fa-solid fa-handshake-simple'
 Config.ClothesJobEmote = 'fa-solid fa-shirt'
-
 --- Items ---
 Config.DrugItem = "weedplant_seedf" --Drug item 
 Config.ShovelItem = "cleanershovel" --Shovel item
@@ -22,7 +21,7 @@ Config.Charvest = 10
 Config.LeafBlower = 30
 Config.CleanWindow = 50
 --- JOB SETTINGS ---
-Config.PaymentType = "cash" --Name of payment type like `Bank, Cash, Money and etc` [ONLY FOR QBCORE]
+Config.PaymentType = "bank" --Name of payment type like `Bank, Cash, Money and etc` [ONLY FOR QBCORE]
 Config.Job = {
     StartJob = { -- Ped Location
         Coords = vector4(185.24281311035, -175.63838195801, 54.145919799805, 160.43276977539),
